@@ -1,0 +1,32 @@
+{
+  "name": "timbusvn-node-api",
+  "version": "1.0.0",
+  "description": "nodejs timbusvn",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon -r dotenv cluster.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoc-anms/timbusvn-node-api.git"
+  },
+  "keywords": [
+    "nodejs",
+    "restapi",
+    "timbusvn"
+  ],
+  "author": "hoc-ansm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hoc-anms/timbusvn-node-api/issues"
+  },
+  "homepage": "https://github.com/hoc-anms/timbusvn-node-api#readme",
+  "devDependencies": {
+    "cluster": "^0.7.7",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.2",
+    "os": "^0.1.1"
+  }
+}
